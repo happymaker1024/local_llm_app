@@ -31,12 +31,12 @@ function UseEffectRender() {
   return (
     <div>
       <h2>모델 목록</h2>
-      <ul>
+      {/* <ul>
         {models.map((model) => (
           <li key={model}>{model}</li>
         ))}
       </ul>
-      <hr />
+      <hr /> */}
       <select
         value={selectedModel}
         onChange={(event) => setSelectedModel(event.target.value)}
