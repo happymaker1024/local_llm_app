@@ -13,6 +13,7 @@ function App() {
   return (
     <div>
       <OllamaChat />
+      <hr />
       <Header />
       <Greeting />
       <Counter />
